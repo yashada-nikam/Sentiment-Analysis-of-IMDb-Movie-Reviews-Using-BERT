@@ -8,7 +8,7 @@ The goal of this project is to build a binary sentiment analysis model using the
 
 Solve the problem by leveraging **BERT (Bidirectional Encoder Representations from Transformers)**, a pre-trained state-of-the-art model for NLP tasks. The BERT model is fine-tuned for sentiment classification on the IMDb dataset. Here are the key steps:
 
-- **Dataset**: The IMDb movie reviews dataset is used, with 25,000 reviews for training and 25,000 reviews for testing.
+- **Dataset**: The [IMDb movie reviews dataset]([url](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?resource=download)) is used, with 25,000 reviews for training and 25,000 reviews for testing.
 - **Preprocessing**: Text is tokenized into word IDs and padded to a maximum sequence length of 128 tokens using BERT’s preprocessing model from TensorFlow Hub.
 - **Model**: We fine-tune the **Small BERT** model (BERT-Base Uncased) from TensorFlow Hub.
 - **Training**: The model is trained for 5 epochs using the AdamW optimizer with learning rate decay.
